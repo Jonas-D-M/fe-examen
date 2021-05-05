@@ -1,5 +1,15 @@
 body,
 html {
-  font: 16px/1.5 "Comic Sans MS";
+  font: 16px/1.5 $lora, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   background: map-get($colors-neutral, "xx-light");
+  color: map-get($colors-neutral, "x-dark");
+}
+
+.c-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 1rem 2rem;
 }

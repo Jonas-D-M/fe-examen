@@ -1,0 +1,37 @@
+.c-searchbox-holder {
+  display: flex;
+  align-items: center;
+}
+
+.c-searchbox {
+  height: 2rem;
+  border-radius: 1rem;
+  border: none;
+  border: 1px solid map-get($colors-neutral, "x-dark");
+  padding: 0 8px 0 32px;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  //   border: 1 solid map-get($colors-neutral, "xx-light");
+
+  background-color: var(--global-input-backgroundColor);
+
+  color: map-get($colors-neutral, "xxx-light");
+
+  font-family: inherit;
+
+  outline: none;
+  &:focus {
+    border: 1px solid map-get($colors-neutral, "dark");
+  }
+  &:hover {
+    border: 1px solid map-get($colors-neutral, "dark");
+  }
+}
+
+.c-searchbox__icon {
+  position: absolute;
+  margin-left: 8px;
+}

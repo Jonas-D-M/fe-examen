@@ -1,10 +1,16 @@
 // Jonas De Meyer
+
 @import "./generic/normalize.scss";
 
 @import "./settings/colors.scss";
+@import "./settings/fonts.scss";
+@import "./settings/screens.scss";
 
 @import "./elements/page.scss";
 @import "./elements/headers.scss";
+
+@import "./components/book.scss";
+@import "./components/searchbox.scss";
 
 @import "./objects/row.scss";
 @import "./objects/container.scss";
